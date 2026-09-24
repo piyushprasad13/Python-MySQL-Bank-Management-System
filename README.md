@@ -24,10 +24,12 @@ A console-based **Bank Management System** developed using **Python and MySQL** 
 ## Project Screenshots
 
 ### Bank Management System
-![Bank Management System](./Added%20Bank%20Management%20System%20screenshot.png)
+
+<img src="images/bank-management-main.png" alt="Bank Management System" width="800">
 
 ### Banking Operations
-![Bank Management System - Operations](./Added%20Bank%20Management%20System%20screenshot%20%282%29.png)
+
+<img src="images/bank-management-operation.png" alt="Bank Management System - Operations" width="800">
 
 ## Project Structure
 
@@ -37,8 +39,9 @@ Python-MySQL-Bank-Management-System/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── Added Bank Management System screenshot.png
-└── Added Bank Management System screenshot (2).png
+└── images/
+    ├── bank-management-main.png
+    └── bank-management-operation.png
 ```
 
 ## Database Structure
