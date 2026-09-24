@@ -31,25 +31,6 @@ A console-based **Bank Management System** developed using **Python and MySQL** 
 
 <img src="images/bank-management-operation.png" alt="Bank Management System - Operations" width="800">
 
-## Other Projects
-
-### 2-Bit Arithmetic Logic Unit (ALU)
-
-A **2-bit Arithmetic Logic Unit (ALU)** designed and simulated in **Proteus** using digital logic gates.
-
-The ALU was designed to perform fundamental arithmetic and logical operations, including:
-
-- Addition
-- Subtraction
-- AND
-- OR
-
-The circuit includes operation-selection logic and final output selection, and was simulated and tested in Proteus.
-
-**Tools:** Proteus, Digital Logic Gates
-
-> Project screenshots for the 2-Bit ALU can be found in the project materials.
-
 ## Project Structure
 
 ```text
