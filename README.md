@@ -1,6 +1,6 @@
 # Python MySQL Bank Management System
 
-A console-based Bank Management System developed using Python and MySQL for basic account and banking operations.
+A console-based **Bank Management System** developed using **Python and MySQL** to manage customer accounts and perform essential banking operations.
 
 ## Features
 
@@ -17,9 +17,17 @@ A console-based Bank Management System developed using Python and MySQL for basi
 
 ## Technologies Used
 
-- Python
-- MySQL
-- mysql-connector-python
+- **Python**
+- **MySQL**
+- **mysql-connector-python**
+
+## Project Screenshots
+
+### Bank Management System
+![Bank Management System](./Added%20Bank%20Management%20System%20screenshot.png)
+
+### Banking Operations
+![Bank Management System - Operations](./Added%20Bank%20Management%20System%20screenshot%20%282%29.png)
 
 ## Project Structure
 
@@ -28,12 +36,14 @@ Python-MySQL-Bank-Management-System/
 ├── bank_management.py
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+├── .gitignore
+├── Added Bank Management System screenshot.png
+└── Added Bank Management System screenshot (2).png
 ```
 
 ## Database Structure
 
-### account table
+### `account` table
 
 | Column | Description |
 |---|---|
@@ -43,7 +53,7 @@ Python-MySQL-Bank-Management-System/
 | phno | Phone number |
 | openingbalance | Opening balance |
 
-### amount table
+### `amount` table
 
 | Column | Description |
 |---|---|
@@ -92,19 +102,19 @@ pip install -r requirements.txt
 
 ## MySQL Configuration
 
-Open `bank_management.py` and replace:
+Open `bank_management.py` and configure your local MySQL credentials.
+
+For example:
 
 ```python
 password='YOUR_MYSQL_PASSWORD'
 ```
 
-with your own local MySQL password.
-
-Do not commit real passwords or other credentials to GitHub.
+**Do not commit real passwords, API keys, or other credentials to GitHub.**
 
 ## Running the Project
 
-Run:
+Run the following command:
 
 ```bash
 python bank_management.py
@@ -122,12 +132,12 @@ The application provides:
 
 ## SQL Operations Demonstrated
 
-The project uses parameterized SQL queries with:
+The project uses parameterized SQL queries for:
 
-- INSERT
-- SELECT
-- UPDATE
-- DELETE
+- **INSERT**
+- **SELECT**
+- **UPDATE**
+- **DELETE**
 
 ## Learning Outcomes
 
@@ -143,6 +153,5 @@ This project demonstrates:
 
 ## Author
 
-**Piyush Prasad**
-
+**Piyush Prasad**  
 B.Tech Electronics and Communication Engineering
